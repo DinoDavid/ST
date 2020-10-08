@@ -60,7 +60,27 @@ button {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 325px;
-  height: 130px;
+  height: 150px;
   top: 110px;
   left: 50%;
+}
+.cardBig {
+  position: static;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 325px;
+  height: 200px;
+  top: 110px;
+  left: 50%;
+}
+
+.react-calendar__tile--active {
+    background: rgba(20, 116, 68, 0.6);
+}
+
+.Clock {
+  position: static !important;
+  align-items: center !important;
+  text-align: center !important;
 }
